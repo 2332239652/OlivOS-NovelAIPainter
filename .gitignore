@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 插件运行数据（含密钥与额度账本，永不入库）
+plugin/data/
+data/
+api_keys.json
+*_keys.json
+usage_weekly.json
+usage_monthly.json
+switch_config.json
+
+# 生成产物
+*.log
+generated/
+output/
+out/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 本地临时
+_tmp/
+*.bak
+*.orig
